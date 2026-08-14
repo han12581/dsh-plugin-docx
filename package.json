@@ -1,0 +1,17 @@
+{
+  "name": "dsh-plugin-docx",
+  "version": "0.1.0",
+  "description": "Local DSH plugin to read/write .docx and extract tables (JavaScript)",
+  "main": "src/index.js",
+  "keywords": ["dsh-plugin", "docx"],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "docx": "^8.0.0",
+    "mammoth": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1"
+  },
+  "license": "MIT"
+}
